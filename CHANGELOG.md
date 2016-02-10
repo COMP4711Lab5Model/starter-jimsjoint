@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.5
+**Modified Files: **
+-Order.php in controllers
+-Route.php in config
+fixed #4
+
 ## 1.0.4
 **Modified Files: **
 -Order.php in controllers
