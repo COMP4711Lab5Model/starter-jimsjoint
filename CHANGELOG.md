@@ -1,9 +1,14 @@
 # Change Log
 
+## 1.0.4
+**Modified Files: **
+-Order.php in controllers
+fixed #3
+
 ## 1.0.3
 **Modified Files: **
 -Welcome.php
-fixed Homepage
+fixed #1 & #2
 
 ## 1.0.2
 **Modified Files: **
