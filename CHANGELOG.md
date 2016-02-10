@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.6
+**Modified Files: **
+-Order.php in controllers
+-Order.php in models
+
 ## 1.0.5
 **Modified Files: **
 -Order.php in controllers
