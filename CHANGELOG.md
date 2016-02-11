@@ -1,9 +1,41 @@
 # Change Log
 
+## 1.0.7
+**Modified Files: **
+-Order.php in controllers
+-Order.php in models
+fixed #7
+cleaned up code
+fixed a minor bug in #4
+
+
+## 1.0.6
+**Modified Files: **
+-Order.php in controllers
+-Order.php in models
+fixed #6
+
+## 1.0.6
+**Modified Files: **
+-Order.php in controllers
+-Order.php in models
+fixed # 5
+
+## 1.0.5
+**Modified Files: **
+-Order.php in controllers
+-Route.php in config
+fixed #4
+
+## 1.0.4
+**Modified Files: **
+-Order.php in controllers
+fixed #3
+
 ## 1.0.3
 **Modified Files: **
 -Welcome.php
-fixed Homepage
+fixed #1 & #2
 
 ## 1.0.2
 **Modified Files: **
