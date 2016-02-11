@@ -20,7 +20,7 @@ class Order extends Application {
         $order_num = $this->orders->highest() + 1;
         $newOrder = $this->orders->create();
         $newOrder->num = $order_num;
-        $newOrder->date = date(DATE_RFC2822);
+        $newOrder->date = date(DATE_ATOM);
         $newOrder->status = 'a';
         $newOrder->total = 0;
         $this->orders->add($newOrder);
@@ -41,7 +41,8 @@ class Order extends Application {
             ' (' .
             number_format($this->orders->total($order_num),
                 2) . ')';
-        //$this->data['title'] = 'Order # '. $order_num;
+
+         //$this->data['title'] = 'Order # '. $order_num;
 
         // Make the columns
         $this->data['meals'] = $this->make_column('m');
@@ -106,7 +107,7 @@ class Order extends Application {
     }
 
     // proceed with checkout
-    function proceed($order_num) {
+    function commit($order_num) {
         if(!$this->orders->validate($order_num)){
             redirect('/order/display_menu/'.$order_num);
         }
